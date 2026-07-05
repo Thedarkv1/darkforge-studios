@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="760" viewBox="0 0 390 760" role="img" aria-labelledby="title desc">
+  <title id="title">BetCal Pro mockup</title>
+  <desc id="desc">Interfaz conceptual premium de BetCal Pro para el Hero de DarkForge Studios.</desc>
+  <defs>
+    <linearGradient id="screenBg" x1="36" y1="0" x2="354" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151922"/>
+      <stop offset="0.46" stop-color="#080A0D"/>
+      <stop offset="1" stop-color="#10120F"/>
+    </linearGradient>
+    <linearGradient id="greenGold" x1="64" y1="126" x2="327" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8cf6c8"/>
+      <stop offset="1" stop-color="#d8b86a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(282 152) rotate(128) scale(260)">
+      <stop stop-color="#8cf6c8" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#8cf6c8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="390" height="760" rx="28" fill="url(#screenBg)"/>
+  <rect width="390" height="760" rx="28" fill="url(#glow)"/>
+  <g opacity="0.16">
+    <path d="M36 178H354" stroke="#ffffff"/>
+    <path d="M36 244H354" stroke="#ffffff"/>
+    <path d="M36 310H354" stroke="#ffffff"/>
+    <path d="M36 376H354" stroke="#ffffff"/>
+    <path d="M36 442H354" stroke="#ffffff"/>
+    <path d="M76 98V650" stroke="#ffffff"/>
+    <path d="M154 98V650" stroke="#ffffff"/>
+    <path d="M232 98V650" stroke="#ffffff"/>
+    <path d="M310 98V650" stroke="#ffffff"/>
+  </g>
+  <text x="34" y="82" fill="#f6f7f8" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">BetCal Pro</text>
+  <text x="34" y="112" fill="#a6abb4" font-family="Arial, Helvetica, sans-serif" font-size="13">Calculadora y estadisticas deportivas</text>
+  <rect x="34" y="144" width="322" height="168" rx="22" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.12"/>
+  <text x="58" y="184" fill="#a6abb4" font-family="Arial, Helvetica, sans-serif" font-size="13">Probabilidad estimada</text>
+  <text x="58" y="237" fill="#f6f7f8" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">64.8%</text>
+  <path d="M58 276C92 246 123 257 154 231C191 200 223 194 257 213C287 230 310 215 333 186" fill="none" stroke="url(#greenGold)" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="333" cy="186" r="7" fill="#8cf6c8"/>
+  <rect x="34" y="334" width="148" height="118" rx="20" fill="#ffffff" fill-opacity="0.055" stroke="#ffffff" stroke-opacity="0.1"/>
+  <rect x="208" y="334" width="148" height="118" rx="20" fill="#ffffff" fill-opacity="0.055" stroke="#ffffff" stroke-opacity="0.1"/>
+  <text x="58" y="374" fill="#a6abb4" font-family="Arial, Helvetica, sans-serif" font-size="12">Cuota sugerida</text>
+  <text x="58" y="417" fill="#8cf6c8" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700">1.72</text>
+  <text x="232" y="374" fill="#a6abb4" font-family="Arial, Helvetica, sans-serif" font-size="12">Riesgo</text>
+  <text x="232" y="417" fill="#d8b86a" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700">Bajo</text>
+  <rect x="34" y="476" width="322" height="150" rx="22" fill="#ffffff" fill-opacity="0.055" stroke="#ffffff" stroke-opacity="0.1"/>
+  <text x="58" y="518" fill="#f6f7f8" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Analisis rapido</text>
+  <g transform="translate(58 548)">
+    <rect width="234" height="8" rx="4" fill="#ffffff" fill-opacity="0.1"/>
+    <rect width="176" height="8" rx="4" fill="#8cf6c8" fill-opacity="0.85"/>
+    <rect y="28" width="234" height="8" rx="4" fill="#ffffff" fill-opacity="0.1"/>
+    <rect y="28" width="126" height="8" rx="4" fill="#d8b86a" fill-opacity="0.85"/>
+    <rect y="56" width="234" height="8" rx="4" fill="#ffffff" fill-opacity="0.1"/>
+    <rect y="56" width="202" height="8" rx="4" fill="#8cf6c8" fill-opacity="0.85"/>
+  </g>
+  <rect x="34" y="656" width="322" height="52" rx="26" fill="#8cf6c8" fill-opacity="0.12" stroke="#8cf6c8" stroke-opacity="0.34"/>
+  <text x="195" y="688" text-anchor="middle" fill="#8cf6c8" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Proximamente en Google Play</text>
+</svg>
