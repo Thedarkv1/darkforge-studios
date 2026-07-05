@@ -1,11 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
   <title id="title">Fondo abstracto DarkForge Studios</title>
-  <desc id="desc">Textura simple para la portada inicial del sitio.</desc>
-  <rect width="1600" height="900" fill="#191a1d"/>
-  <path d="M0 660C210 600 300 735 520 675C745 613 835 405 1060 364C1262 327 1428 430 1600 334V900H0Z" fill="#7b2f2f"/>
-  <path d="M0 735C285 687 373 815 617 762C848 711 918 545 1151 508C1339 478 1470 548 1600 489V900H0Z" fill="#532223"/>
-  <path d="M1125 180L1223 350L1125 520L1027 350Z" fill="#d7a84f" opacity="0.78"/>
-  <path d="M1180 350L1125 446L1070 350L1125 254Z" fill="#f7f7f4" opacity="0.18"/>
-  <circle cx="270" cy="210" r="90" fill="#d7a84f" opacity="0.2"/>
-  <circle cx="345" cy="245" r="24" fill="#d7a84f" opacity="0.35"/>
+  <desc id="desc">Gradientes discretos, lineas suaves y puntos para la portada del sitio.</desc>
+  <defs>
+    <radialGradient id="greenGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1180 260) rotate(135) scale(520)">
+      <stop stop-color="#8cf6c8" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#8cf6c8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="goldGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(260 620) rotate(45) scale(460)">
+      <stop stop-color="#d8b86a" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#d8b86a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="184" y1="134" x2="1350" y2="690" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8cf6c8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#8cf6c8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#d8b86a" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="#0B0B0D"/>
+  <rect width="1600" height="900" fill="url(#greenGlow)"/>
+  <rect width="1600" height="900" fill="url(#goldGlow)"/>
+  <path d="M184 134C438 250 618 206 828 348C1035 488 1158 592 1350 690" fill="none" stroke="url(#line)" stroke-width="1.5"/>
+  <path d="M0 736C242 650 378 724 584 668C804 608 921 470 1128 446C1324 424 1446 486 1600 422V900H0Z" fill="#ffffff" opacity="0.025"/>
+  <g fill="#ffffff" opacity="0.18">
+    <circle cx="235" cy="190" r="1.6"/>
+    <circle cx="418" cy="312" r="1.2"/>
+    <circle cx="630" cy="158" r="1.5"/>
+    <circle cx="956" cy="235" r="1.4"/>
+    <circle cx="1240" cy="560" r="1.7"/>
+    <circle cx="1384" cy="292" r="1.3"/>
+    <circle cx="318" cy="696" r="1.5"/>
+    <circle cx="720" cy="740" r="1.2"/>
+  </g>
 </svg>
