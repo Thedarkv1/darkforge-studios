@@ -616,7 +616,7 @@ h3 {
 .studio-app-card {
   position: relative;
   display: grid;
-  grid-template-columns: 150px minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
   gap: 28px;
   overflow: hidden;
@@ -658,29 +658,10 @@ h3 {
   transform: translateX(42%);
 }
 
-.studio-app-preview,
 .studio-app-copy,
 .card-link {
   position: relative;
   z-index: 1;
-}
-
-.studio-app-preview {
-  display: grid;
-  place-items: center;
-  height: 172px;
-  border: 1px solid rgba(255, 255, 255, 0.11);
-  border-radius: 8px;
-  background:
-    radial-gradient(circle at 50% 42%, rgba(140, 246, 200, 0.2), transparent 54%),
-    rgba(255, 255, 255, 0.04);
-}
-
-.studio-app-preview img {
-  width: 86px;
-  max-height: 148px;
-  object-fit: contain;
-  filter: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.44));
 }
 
 .studio-app-copy h3 {
@@ -1496,12 +1477,7 @@ h3 {
   }
 
   .studio-app-card {
-    grid-template-columns: 132px minmax(0, 1fr);
-  }
-
-  .card-link {
-    grid-column: 2;
-    width: fit-content;
+    grid-template-columns: minmax(0, 1fr) auto;
   }
 
   .product-page-hero {
@@ -1539,14 +1515,6 @@ h3 {
     grid-template-columns: 1fr;
     gap: 22px;
     padding: 22px;
-  }
-
-  .studio-app-preview {
-    height: 190px;
-  }
-
-  .studio-app-preview img {
-    width: 98px;
   }
 
   .card-link {
