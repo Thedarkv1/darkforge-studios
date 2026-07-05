@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sitio oficial de DarkForge Studios: aplicaciones, juegos, politicas y contacto.">
+  <title>DarkForge Studios</title>
+  <link rel="icon" href="assets/icons/darkforge-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Navegaci&oacute;n principal">
+      <a class="brand" href="#inicio" aria-label="DarkForge Studios inicio">
+        <img src="assets/icons/darkforge-mark.svg" alt="" class="brand-icon">
+        <span>DarkForge Studios</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+        <span class="sr-only">Abrir men&uacute;</span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#aplicaciones">Aplicaciones</a></li>
+        <li><a href="#juegos">Juegos</a></li>
+        <li><a href="#privacidad">Privacidad</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="section-content hero-content">
+        <p class="eyebrow">Estudio independiente</p>
+        <h1>DarkForge Studios</h1>
+        <p class="hero-text">
+          Creamos aplicaciones y juegos digitales con una base simple, clara y preparada para crecer.
+        </p>
+        <a class="button" href="#aplicaciones">Ver aplicaciones</a>
+      </div>
+    </section>
+
+    <section class="section" id="aplicaciones">
+      <div class="section-content">
+        <div class="section-heading">
+          <p class="eyebrow">Aplicaciones</p>
+          <h2>Primer lanzamiento</h2>
+        </div>
+
+        <article class="app-card">
+          <div>
+            <h3>BetCal Pro</h3>
+            <p>Calculadora y estad&iacute;sticas para apuestas deportivas.</p>
+          </div>
+          <span class="status-badge">Pr&oacute;ximamente en Google Play</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="juegos">
+      <div class="section-content">
+        <div class="section-heading">
+          <p class="eyebrow">Juegos</p>
+          <h2>Pr&oacute;ximos proyectos</h2>
+        </div>
+        <p class="section-text">
+          Esta secci&oacute;n queda preparada para presentar futuros juegos de DarkForge Studios.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="privacidad">
+      <div class="section-content">
+        <div class="section-heading">
+          <p class="eyebrow">Pol&iacute;ticas</p>
+          <h2>Pol&iacute;ticas de privacidad</h2>
+        </div>
+        <p class="section-text">
+          La pol&iacute;tica de privacidad completa se agregar&aacute; cuando las aplicaciones est&eacute;n listas para publicarse.
+        </p>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="contacto">
+      <div class="section-content">
+        <div class="section-heading">
+          <p class="eyebrow">Contacto</p>
+          <h2>Hablemos</h2>
+        </div>
+        <p class="section-text">
+          Para consultas generales, escribe a
+          <a href="mailto:contacto@darkforgestudios.com">contacto@darkforgestudios.com</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="current-year"></span> DarkForge Studios. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

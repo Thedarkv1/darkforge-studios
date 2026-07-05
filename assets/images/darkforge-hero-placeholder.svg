@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Fondo abstracto DarkForge Studios</title>
+  <desc id="desc">Textura simple para la portada inicial del sitio.</desc>
+  <rect width="1600" height="900" fill="#191a1d"/>
+  <path d="M0 660C210 600 300 735 520 675C745 613 835 405 1060 364C1262 327 1428 430 1600 334V900H0Z" fill="#7b2f2f"/>
+  <path d="M0 735C285 687 373 815 617 762C848 711 918 545 1151 508C1339 478 1470 548 1600 489V900H0Z" fill="#532223"/>
+  <path d="M1125 180L1223 350L1125 520L1027 350Z" fill="#d7a84f" opacity="0.78"/>
+  <path d="M1180 350L1125 446L1070 350L1125 254Z" fill="#f7f7f4" opacity="0.18"/>
+  <circle cx="270" cy="210" r="90" fill="#d7a84f" opacity="0.2"/>
+  <circle cx="345" cy="245" r="24" fill="#d7a84f" opacity="0.35"/>
+</svg>
