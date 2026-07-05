@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="760" viewBox="0 0 390 760" role="img" aria-labelledby="title desc">
+  <title id="title">Rendimiento de BetCal Pro</title>
+  <desc id="desc">Captura conceptual de rendimiento de BetCal Pro.</desc>
+  <defs>
+    <linearGradient id="bars" x1="0" y1="230" x2="0" y2="506" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8cf6c8"/>
+      <stop offset="1" stop-color="#d8b86a"/>
+    </linearGradient>
+  </defs>
+  <rect width="390" height="760" rx="34" fill="#08090c"/>
+  <circle cx="194" cy="276" r="190" fill="#8cf6c8" opacity="0.1"/>
+  <text x="34" y="72" fill="#f6f7f8" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Rendimiento</text>
+  <text x="34" y="100" fill="#a6abb4" font-family="Arial, Helvetica, sans-serif" font-size="13">ROI y tendencias</text>
+  <rect x="34" y="138" width="322" height="128" rx="24" fill="#ffffff" opacity="0.07"/>
+  <text x="58" y="184" fill="#a6abb4" font-family="Arial, Helvetica, sans-serif" font-size="13">ROI mensual</text>
+  <text x="58" y="236" fill="#8cf6c8" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700">+21.6%</text>
+  <rect x="34" y="300" width="322" height="244" rx="24" fill="#ffffff" opacity="0.055"/>
+  <g transform="translate(62 344)" fill="url(#bars)">
+    <rect x="0" y="96" width="28" height="84" rx="10"/>
+    <rect x="48" y="54" width="28" height="126" rx="10"/>
+    <rect x="96" y="78" width="28" height="102" rx="10"/>
+    <rect x="144" y="24" width="28" height="156" rx="10"/>
+    <rect x="192" y="48" width="28" height="132" rx="10"/>
+    <rect x="240" y="12" width="28" height="168" rx="10"/>
+  </g>
+  <rect x="34" y="582" width="148" height="92" rx="22" fill="#ffffff" opacity="0.06"/>
+  <rect x="208" y="582" width="148" height="92" rx="22" fill="#ffffff" opacity="0.06"/>
+  <text x="58" y="624" fill="#a6abb4" font-family="Arial, Helvetica, sans-serif" font-size="12">Mejor racha</text>
+  <text x="58" y="654" fill="#f6f7f8" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">8</text>
+  <text x="232" y="624" fill="#a6abb4" font-family="Arial, Helvetica, sans-serif" font-size="12">Eficiencia</text>
+  <text x="232" y="654" fill="#f6f7f8" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">72%</text>
+</svg>

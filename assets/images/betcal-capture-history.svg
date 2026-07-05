@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="760" viewBox="0 0 390 760" role="img" aria-labelledby="title desc">
+  <title id="title">Historial de BetCal Pro</title>
+  <desc id="desc">Captura conceptual del historial de BetCal Pro.</desc>
+  <rect width="390" height="760" rx="34" fill="#0a0b0e"/>
+  <circle cx="304" cy="138" r="150" fill="#d8b86a" opacity="0.11"/>
+  <text x="34" y="72" fill="#f6f7f8" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Historial</text>
+  <text x="34" y="100" fill="#a6abb4" font-family="Arial, Helvetica, sans-serif" font-size="13">Registros organizados</text>
+  <g fill="#ffffff" opacity="0.07">
+    <rect x="34" y="138" width="322" height="92" rx="22"/>
+    <rect x="34" y="250" width="322" height="92" rx="22"/>
+    <rect x="34" y="362" width="322" height="92" rx="22"/>
+    <rect x="34" y="474" width="322" height="92" rx="22"/>
+    <rect x="34" y="586" width="322" height="92" rx="22"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="58" y="176" fill="#f6f7f8" font-size="17" font-weight="700">Local vs Visitante</text>
+    <text x="58" y="204" fill="#8cf6c8" font-size="13">Ganada · ROI +12%</text>
+    <text x="58" y="288" fill="#f6f7f8" font-size="17" font-weight="700">Over 2.5 goles</text>
+    <text x="58" y="316" fill="#d8b86a" font-size="13">Pendiente · Cuota 1.86</text>
+    <text x="58" y="400" fill="#f6f7f8" font-size="17" font-weight="700">Doble oportunidad</text>
+    <text x="58" y="428" fill="#8cf6c8" font-size="13">Ganada · ROI +7%</text>
+    <text x="58" y="512" fill="#f6f7f8" font-size="17" font-weight="700">Total corners</text>
+    <text x="58" y="540" fill="#ff9d9d" font-size="13">Perdida · Riesgo alto</text>
+    <text x="58" y="624" fill="#f6f7f8" font-size="17" font-weight="700">Resultado exacto</text>
+    <text x="58" y="652" fill="#8cf6c8" font-size="13">Ganada · ROI +18%</text>
+  </g>
+</svg>
