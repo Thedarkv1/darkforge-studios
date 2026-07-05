@@ -831,20 +831,41 @@ h3 {
   place-items: center;
   width: 82px;
   height: 82px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(140, 246, 200, 0.24);
   border-radius: 8px;
   background:
     radial-gradient(circle at 50% 38%, rgba(140, 246, 200, 0.18), transparent 56%),
     rgba(255, 255, 255, 0.045);
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.1),
-    0 22px 48px rgba(0, 0, 0, 0.22);
+    0 18px 42px rgba(0, 0, 0, 0.26);
+  transition: border-color 240ms ease, box-shadow 240ms ease, transform 240ms ease;
 }
 
 .project-icon img {
-  width: 58px;
-  height: 58px;
-  filter: drop-shadow(0 14px 22px rgba(0, 0, 0, 0.34));
+  width: 76px;
+  height: 76px;
+  border-radius: 8px;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.28);
+  object-fit: cover;
+  transition: box-shadow 240ms ease, transform 240ms ease;
+}
+
+.studio-app-card:hover .project-icon,
+.studio-app-card:focus .project-icon {
+  border-color: rgba(140, 246, 200, 0.46);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.14),
+    0 18px 42px rgba(0, 0, 0, 0.3),
+    0 0 28px rgba(140, 246, 200, 0.18);
+  transform: translateY(-1px);
+}
+
+.studio-app-card:hover .project-icon img,
+.studio-app-card:focus .project-icon img {
+  box-shadow:
+    0 12px 26px rgba(0, 0, 0, 0.3),
+    0 0 22px rgba(140, 246, 200, 0.18);
 }
 
 .studio-app-copy h3 {
@@ -1824,8 +1845,8 @@ h3 {
   }
 
   .project-icon {
-    width: 74px;
-    height: 74px;
+    width: 80px;
+    height: 80px;
   }
 
   .product-page-hero {
@@ -1866,8 +1887,8 @@ h3 {
   }
 
   .project-icon {
-    width: 74px;
-    height: 74px;
+    width: 80px;
+    height: 80px;
   }
 
   .card-link {
